@@ -214,7 +214,7 @@ const AppointmentForm = () => {
           appointment_time_fmt: payload.appointment_time_fmt,
           appointment_value: getConsultationValue(),
           meet_link: meetLink,
-          doctor_name: "Thábata Braga"
+          doctor_name: "Dra. Deyse Dias"
         },
         EMAILJS_CONFIG.publicKey
       );
@@ -223,8 +223,8 @@ const AppointmentForm = () => {
           EMAILJS_CONFIG.serviceId,
         EMAILJS_CONFIG.templateId,
           {
-          to_name: "Thábata Braga",
-          to_email: "thabatabraga@thbeautymakeup.com",
+          to_name: "Dra. Deyse Dias",
+          to_email: "dra.deyse@clinicaintegra.com",
           patient_name: payload.patient_name,
           appointment_type: payload.appointment_type,
             consultation_type_cap: payload.consultation_type_cap,
@@ -232,7 +232,7 @@ const AppointmentForm = () => {
           appointment_time_fmt: payload.appointment_time_fmt,
           appointment_value: getConsultationValue(),
           meet_link: meetLink,
-          doctor_name: "Thábata Braga"
+          doctor_name: "Dra. Deyse Dias"
           },
           EMAILJS_CONFIG.publicKey
         );
@@ -279,8 +279,8 @@ const AppointmentForm = () => {
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
               <h4 className="font-semibold text-blue-800 mb-2">Próximos Passos</h4>
                               <p className="text-blue-700 text-sm">
-                  Você receberá instruções detalhadas por e-mail. A Thábata também foi notificada sobre seu agendamento. 
-                  Para serviços de maquiagem, chegue com o rosto limpo e hidratado.
+                  Você receberá instruções detalhadas por e-mail. A Dra. Deyse também foi notificada sobre seu agendamento. 
+                  Caso tenha dúvidas pré-operatórias, entre em contato pelo WhatsApp informado.
                 </p>
             </div>
           </div>

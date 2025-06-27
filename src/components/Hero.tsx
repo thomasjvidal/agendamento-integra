@@ -110,14 +110,14 @@ const Hero = () => {
               className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              Thábata Braga
+              Dra. Deyse de Oliveira | Cirurgiã
             </h1>
             
             <p 
               style={{ animationDelay: "0.5s" }} 
               className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
             >
-              Noivas • Maquiagem • Penteado • Conteúdo de Mídia • Dia da Noiva
+              Cirurgia Geral • Cirurgia Estética • Tratamento de Lipedema
             </p>
             
             <div 
@@ -162,8 +162,8 @@ const Hero = () => {
               <div className="relative transition-all duration-500 ease-out overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
                 <img 
                   ref={imageRef} 
-                  src="/thabata-photo.jpg" 
-                  alt="Thábata Braga - Maquiadora Profissional especializada" 
+                  src="/deyse-photo.jpg.jpg" 
+                  alt="Dra. Deyse de Oliveira – Cirurgiã" 
                   className="w-full h-auto object-cover transition-transform duration-500 ease-out" 
                   style={{ transformStyle: 'preserve-3d' }} 
                 />

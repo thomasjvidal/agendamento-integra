@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8">
           {/* Contact Information */}
           <div>
-            <div className="text-primary text-3xl font-bold mb-8">Th Makeup Clinic</div>
+            <div className="text-primary text-3xl font-bold mb-8">Clínica Íntegra</div>
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
@@ -32,8 +32,8 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-zinc-200">Telefone/WhatsApp:</p>
-                  <a href="https://wa.me/5524999226925" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#d4af37] transition-colors">
-                    (24) 99922-6925
+                  <a href="https://wa.me/5532999999999" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-[#d4af37] transition-colors">
+                    (32) 9XXXX-YYYY
                   </a>
                 </div>
               </div>
@@ -42,8 +42,8 @@ const Footer = () => {
                 <Mail className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-zinc-200">Email:</p>
-                  <a href="mailto:thabatabragamakeup@gmail.com" className="text-zinc-400 hover:text-[#d4af37] transition-colors">
-                    thabatabragamakeup@gmail.com
+                  <a href="mailto:dra.deyse@clinicaintegra.com" className="text-zinc-400 hover:text-[#d4af37] transition-colors">
+                    dra.deyse@clinicaintegra.com
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const Footer = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Th Beauty Makeup Clinic"
+              title="Localização Clínica Íntegra"
             ></iframe>
             <div className="mt-8">
               <Newsletter />
@@ -92,7 +92,7 @@ const Footer = () => {
         {/* Rodapé inferior igual Dani */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-zinc-400 text-sm">
-            © 2024 Th Beauty Makeup Clinic - Thábata Braga. Todos os direitos reservados.
+            © 2025 Dra. Deyse Dias – Clínica Íntegra. Todos os direitos reservados.
           </p>
           <p className="text-zinc-500 text-xs mt-2">
             Desenvolvido por{" "}

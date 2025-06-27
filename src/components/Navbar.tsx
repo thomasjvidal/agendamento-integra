@@ -51,11 +51,11 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Thábata Braga - Th Beauty Makeup Clinic"
+          aria-label="Dra. Deise Dias – Clínica Íntegra"
         >
           <img 
             src="/logo.svg" 
-            alt="Thábata Braga - Th Beauty Makeup Clinic" 
+            alt="Dra. Deise Dias – Clínica Íntegra" 
             className="h-7 sm:h-8" 
           />
         </a>

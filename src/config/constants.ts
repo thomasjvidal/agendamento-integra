@@ -19,12 +19,12 @@ export const EMAILJS_CONFIG = {
   enabled: true
 };
 
-// Configuração de contato
+// Configuração de contato (Dra. Deyse – Clínica Íntegra)
 export const CONTACT_INFO = {
-  email: "thabatabraga@thbeautymakeup.com",
-  instagram: "@thabatabraga.makeup",
-  pixKey: "thabatabraga@thbeautymakeup.com", // Chave Pix
-  whatsapp: "5524999226925"
+  email: "dra.deyse@clinicaintegra.com",
+  instagram: "@dradeisedias",
+  pixKey: "dra.deyse@clinicaintegra.com", // Chave Pix (placeholder)
+  whatsapp: "5532999999999" // Placeholder – ajuste conforme necessário
 };
 
 // Valores dos serviços
@@ -48,25 +48,19 @@ export const CONSULTATION_PRICES = {
 
 // Informações da profissional
 export const PROFESSIONAL_INFO = {
-  name: "Thábata Braga",
-  fullName: "Thábata Braga - Th Beauty Makeup Clinic",
-  specialty: "Maquiagem Profissional",
+  name: "Dra. Deyse de Oliveira",
+  fullName: "Dra. Deyse de Oliveira – Clínica Íntegra",
+  specialty: "Cirurgia Geral e Estética",
   specialties: [
-    "Pacote Diamante Noiva (R$ 2.000,00)",
-    "Pacote Ouro Noiva (R$ 1.500,00)", 
-    "Master VIP (R$ 3.000,00)",
-    "Beauty Expert Class (R$ 1.200,00)",
-    "VIP Individual (R$ 800,00)",
-    "Maquiagem (R$ 250,00)",
-    "Penteado Solto (R$ 180,00)",
-    "Penteado Preso (R$ 200,00)",
-    "Baby Liss (R$ 100,00)"
+    "Consulta pré-operatória",
+    "Cirurgia geral e estética – agendamento via anestesista",
+    "Avaliação e tratamentos relacionados a lipedema"
   ],
-  mainSpecialty: "Maquiagem para Noivas",
-  location: "Barra Mansa - RJ",
-  bio: "Thábata Braga é maquiadora profissional e fundadora da Th Beauty Makeup Clinic, localizada em Barra Mansa – RJ. Reconhecida por realçar a beleza de cada cliente com sofisticação e versatilidade, ela se destaca em técnicas refinadas que valorizam tanto cerimônias elegantes quanto produções mais modernas.",
-  experience: "Profissional especializada",
-  formation: "Th Beauty Makeup Clinic"
+  mainSpecialty: "Cirurgiã Geral",
+  location: "Leopoldina – MG",
+  bio: "Dra. Deyse de Oliveira é cirurgiã atuante na Clínica Íntegra, Leopoldina – MG, oferecendo atendimento humano e especializado em cirurgia geral, procedimentos estéticos e tratamento de lipedema.",
+  experience: "Cirurgiã experiente",
+  formation: "Clínica Íntegra"
 };
 
 // Horários disponíveis
